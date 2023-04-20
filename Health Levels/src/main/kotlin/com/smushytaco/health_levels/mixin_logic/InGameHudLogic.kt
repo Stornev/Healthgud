@@ -9,6 +9,7 @@ import net.fabricmc.api.Environment
 import net.minecraft.client.MinecraftClient
 import net.minecraft.client.font.TextRenderer
 import net.minecraft.client.gui.DrawableHelper
+import net.minecraft.client.gui.DrawableHelper.drawTexture
 import net.minecraft.client.util.math.MatrixStack
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 @Environment(EnvType.CLIENT)
